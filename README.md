@@ -4,6 +4,7 @@ a simple implementation of client prediction and server reconciliation
 Sadrzaj:
 Na server se mogu spojiti max 20 clienta.
 Moguće je postaviti "fake" latenciju (u svrhu testiranja).
+Server osluskuje normalnom brzinom, ali se game state updatea tickom od 30 puta u sekundi.
 
 Princip:
   - client pri povezivanju na server svoj tick stavlja u buducnost u odnosu na server
