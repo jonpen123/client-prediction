@@ -14,3 +14,8 @@ Princip:
   - server salje trenutni game state clientima
   - client prima game state od servera i usporedjuje svoj predicted state s serverovim
   - ako je client krivo predvidio preuzima serverov state
+
+Dependencies:
+  - Raylib 4.5
+  - ENet Reliable UDP networking library
+  - Niels Lohmann's JSON for Modern C++
